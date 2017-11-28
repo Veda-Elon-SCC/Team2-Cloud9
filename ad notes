@@ -1,0 +1,32 @@
+Node.js research info tidbits
+
+About Node.js®
+As an asynchronous* event driven JavaScript runtime, Node is designed to build scalable network applications. In the following "hello world" example, many connections can be handled concurrently. Upon each connection the callback is fired, but if there is no work to be done, Node will sleep.
+ 
+*Asynchronous communication is the exchange of messages, such as among the hosts on a network or devices in a computer, by reading and responding as schedules permit rather than according to some clock that is synchronized for both the sender and receiver or in real time. 
+www.linfo.org/asynchronous.html
+ 
+Node is similar in design to, and influenced by, systems like Ruby's Event Machine or Python's Twisted. Node takes the event model a bit further. It presents an event loop as a runtime construct instead of as a library. In Node there is no such start-the-event-loop call. Node simply enters the event loop after executing the input script. Node exits the event loop when there are no more callbacks to perform. This behavior is like browser JavaScript — the event loop is hidden from the user.
+HTTP is a first class citizen in Node, designed with streaming and low latency in mind. This makes Node well suited for the foundation of a web library or framework.https://nodejs.org/en/about/
+
+How are 10 Global companies using Node in production
+
+Netflix - Netflix is arguably the biggest streaming media and VOD provider in the world.         
+Linkedin -The biggest social-networking platform dedicated to business and employment,          
+Walmart - World’s largest retail chain, Walmart, is ambitiously plunging into the online commerce space    
+Trello-  Trello is touted as a revolutionary project management app 
+Uber - Uber is a famous platform that connects cab rides to customers in need of transportation services through its app.                PayPal -The world-renowned online payments platform successfully transitioned their backend development  to Node.js                      Medium -A renowned online publishing platform, Medium uses web services for its web servers.                  
+eBayEbay is the multinational e-commerce function that has always been receptive to adopt newer technologies.                            NASA - uses this technology for its application that is of remarkable importance. Their application is focused on keeping lives of its astronauts safe during perilous space expeditions.                            
+Groupon-The popular virtual marketplace for online deals and coupons, Groupon has successful operations worldwide. 
+
+Node.js- The Way Forward - Node is continuously becoming a preferable technology for multiple companies. There are several other big names that include Microsoft, Google, Yahoo, Mozilla and Github who have embraced Node.js as a part of their operations. http://www.tothenew.com/blog/how-are-10-global-companies-using-node-js-in-production/
+
+Node.js tutorial -  Learn to node.js
+https://www.lynda.com/Node-js-tutorials/
+
+
+
+
+
+
+
