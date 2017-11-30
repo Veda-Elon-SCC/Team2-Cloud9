@@ -1,7 +1,7 @@
 /* web settings */
 
 html {
-    background-color:#FFC0CB;
+    background-color:#AAA;
 }
 
 div.wrapper {
@@ -22,14 +22,39 @@ header{
 
 p {
     clear:both;
-    text-align: center;
+    text-align: left;
     font-family: sans-serif;
     padding:1em;    
 }
 
-section {
+h1 {
     clear:both;
     text-align: center;
+    font-family: sans-serif;
+    padding:1em;
+    font-size: 1.2em;
+}
+
+h2 {
+    clear:both;
+    text-align: left;
+    font-family: sans-serif;
+    padding:1em;
+    font-size: 1.1em;
+}
+
+h3 {
+    clear:both;
+    text-align: left;
+    font-family: sans-serif;
+    padding:1em;
+    font-size: 1em;
+    font-style: italic;
+}
+
+section {
+    clear:both;
+    text-align: left;
     font-family: sans-serif;
     padding:1em; 
 }
@@ -40,5 +65,3 @@ footer {
     font-family: sans-serif;
     padding:1em;
 }
-
-
