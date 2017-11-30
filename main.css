@@ -1,0 +1,67 @@
+/* web settings */
+
+html {
+    background-color:#AAA;
+}
+
+div.wrapper {
+    background-color:#CCC;
+    width:100%;
+    margin:auto;
+    overflow:auto;
+}
+
+header{
+    clear:both;
+    text-align: center;
+    font-family: sans-serif;
+    padding:1em;
+    width: 90%;
+    margin:auto;
+}
+
+p {
+    clear:both;
+    text-align: left;
+    font-family: sans-serif;
+    padding:1em;    
+}
+
+h1 {
+    clear:both;
+    text-align: center;
+    font-family: sans-serif;
+    padding:1em;
+    font-size: 1.2em;
+}
+
+h2 {
+    clear:both;
+    text-align: left;
+    font-family: sans-serif;
+    padding:1em;
+    font-size: 1.1em;
+}
+
+h3 {
+    clear:both;
+    text-align: left;
+    font-family: sans-serif;
+    padding:1em;
+    font-size: 1em;
+    font-style: italic;
+}
+
+section {
+    clear:both;
+    text-align: left;
+    font-family: sans-serif;
+    padding:1em; 
+}
+
+footer {
+    clear:both;
+    text-align: center;
+    font-family: sans-serif;
+    padding:1em;
+}
